@@ -1,0 +1,30 @@
+﻿    • Show .git on windows explorer : preferences -→settings-→search for « files exclude »
+    • create a new_file.txt 
+    • git status
+    • git add new_file.txt
+    • git status
+    • git commit -m "added first file"
+    • git status
+    • add three files.txt
+    • git status
+    • to add all files into the staging area : git add . 
+    • Change a text on some file and git status
+    •  git add file_three.txt 
+    • git commit -m "files modified"
+    • git log
+
+
+    • git remote -v
+    • git remote add origin https://github.com/FaissalOuardi/my_second_repo
+    • git push -u origin master
+      fatal : 'origin' does not appear to be a git repository
+      fatal : Impossible de lire le dépôt distant.
+    • git remote add origin https://PAT@github.com/FaissalOuardi/my_second_repo
+    • git push -u origin master
+
+    • git fetch
+    • git log
+    • git checkout origin master
+    • git switch master
+    • git pull
+    • 
